@@ -46,6 +46,7 @@ in `require': cannot load such file -- webrick (LoadError)
 루비 3.0부터 webrick 이 기본 패키지에서 빠졌기 때문에 추가 해 줘야됨.
 > bundle add webrick
 ```
+![add webrick](/assets/2022-04-18_142241_bundle add webrick.png)
 
 ## 로컬에서 jekyll, 웹서버 실행
 `bundle exec jekyll serve`
