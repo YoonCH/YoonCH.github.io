@@ -1,0 +1,53 @@
+---
+title:  "창흠의 블로그"
+excerpt: "시작"
+
+categories:
+  - Blog
+tags:
+  - [Blog, jekyll, Github, Git]
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-04-18
+last_modified_at: 2022-04-18
+---
+
+# Jekyll 블로그 설치
+
+## Ruby를 설치
+루비 인스톨러 공식 다운로드 페이지 https://rubyinstaller.org/downloads/
+Ruby+Devkit 설치
+( optional : Ming 같이 설치함..)
+
+## 인코딩 명령 실행
+`chcp 65001`
+
+## 블로그 GIT PULL 디렉토리로 이동 
+`cd /blog/YoonCH.github.com`
+
+## gem 명령어로 종속 라이브러리 설치
+`gem install jekyll bundler`
+
+## Clone을 마친 Repository에 초기화 설정을 진행
+`jekyll new YoonCH.github.io`
+
+```
+( Trouble Shooting ) 
+(Bundler::GemNotFound) 오류가 발생시,
+> bundler 입력하면 알아서 extension 라이브러리들 정리하고 설치함.
+```
+
+```
+(Trouble Shooting)
+에러 메시지 발생
+in `require': cannot load such file -- webrick (LoadError)
+루비 3.0부터 webrick 이 기본 패키지에서 빠졌기 때문에 추가 해 줘야됨.
+> bundle add webrick
+```
+
+## 로컬에서 jekyll, 웹서버 실행
+`bundle exec jekyll serve`
+
+
