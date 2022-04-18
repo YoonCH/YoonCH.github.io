@@ -3,7 +3,7 @@ title:  "창흠의 블로그"
 excerpt: "시작"
 
 categories:
-  - Blog
+  - jekyll
 tags:
   - [Blog, jekyll, Github, Git]
 
