@@ -1,5 +1,5 @@
 ---
-title:  "창흠의 블로그"
+title:  "Jekyll 설치"
 excerpt: "시작"
 
 categories:
